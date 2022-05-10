@@ -25,7 +25,7 @@
         android:layout_margin="10dp"
 
         android:layout_marginTop="60dp"
-        android:text="Open Gallery"
+        android:text=" Gallery"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
@@ -40,7 +40,7 @@
         android:layout_margin="10dp"
 
         android:layout_marginBottom="148dp"
-        android:text="take a video"
+        android:text=" video"
         app:layout_constraintBottom_toTopOf="@+id/takephoto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.443"
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
 
         android:layout_marginBottom="72dp"
-        android:text="take a picture"
+        android:text=" picture"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.476"

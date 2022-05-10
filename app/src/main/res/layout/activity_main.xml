@@ -26,7 +26,7 @@
         android:layout_margin="5dp"
 
         android:layout_marginBottom="15dp"
-        android:text="take_picture"
+        android:text="picture"
         app:layout_constraintBottom_toTopOf="@+id/videobutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -37,7 +37,7 @@
         android:layout_height="50dp"
         android:layout_margin="5dp"
 
-        android:text="Open Gallery"
+        android:text=" Gallery"
         app:layout_constraintBottom_toTopOf="@+id/takepicture"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:text="take_video"
+        android:text="video"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
 

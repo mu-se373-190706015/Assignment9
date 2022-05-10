@@ -13,9 +13,8 @@ import android.provider.MediaStore
 import android.widget.ImageView
 
 import com.example.assignment9.databinding.ActivityMainBinding
-import com.example.assignment9.databinding.ActivityVideoBinding
 
- class PhotoActivity : AppCompatActivity() {
+class PhotoActivity : AppCompatActivity() {
 
     var choose = 0
 
@@ -36,7 +35,7 @@ import com.example.assignment9.databinding.ActivityVideoBinding
         binding.opengallery.setOnClickListener {
             choose = 1
             REQUEST_CODE = 100
-            openGalleryForImage()
+            openGallery()
 
         }
 
@@ -72,7 +71,7 @@ import com.example.assignment9.databinding.ActivityVideoBinding
         startActivityForResult(cameraIntent, REQUEST_CODE)
     }
 
-    private fun openGalleryForImage() {
+    private fun openGallery() {
         val intent = Intent(Intent.ACTION_PICK)
         intent.type = "image/*"
         startActivityForResult(intent, REQUEST_CODE)
